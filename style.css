@@ -8,3 +8,16 @@
     height: 100vh;
     background: linear-gradient(110deg, white 68%, #ffc800 32%);
 }
+#logo {
+    font-size: 30px;
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+#logo img{
+    margin-bottom: 10px;
+}
+#logo span{
+    color: #ffc800;
+}
