@@ -92,7 +92,7 @@
 .content h1{
     margin-left: 42px;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 62px;
     text-shadow: -1px 0px 0px black;
 
 }
@@ -188,3 +188,30 @@
     font-weight: bold;
 }
 /* top icons */
+#cards{
+    margin-top: 100px;
+    font-family: "Roboto Slab", "serif";
+}
+
+#cards .card h3{
+    columns: #ffc800;
+    font-weight: bold;
+}
+
+#cards .card p{
+    color: #ffc800;
+    font-weight: bold;
+}
+
+#rn{
+    width: 150px;
+    height: 32px;
+    border: none;
+    background: transparent;
+    color: #ffc800;
+    border: 2px solid #ffc800;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
