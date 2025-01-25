@@ -183,14 +183,14 @@
 }
 #top-icons h3{
     font-size: 18px;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto Slab", serif;
     margin-left: 20px;
     font-weight: bold;
 }
 /* top icons */
 #cards{
     margin-top: 100px;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto Slab", serif;
 }
 
 #cards .card h3{
@@ -254,7 +254,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./assets/images/banner.png");
     background-size: cover;
     text-align: center;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto Slab", serif;
 }
 .banner h3{
     padding-top: 132px;
@@ -323,3 +323,71 @@
     background-color: #ffc800;
     color: white;
 }
+
+#contact{
+    margin-top: 100px;
+    border: 2px solid #ffc800;
+}
+#h2{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 2px solid #ffc800;
+    text-shadow: 1px 1px 1px black;
+}
+#contact h3{
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 2px solid #ffc800;
+    text-shadow: 1px 1px 1px black;
+}
+#contact p{
+    font-family: 'Dancing Script', cursive;
+}
+#contact input{
+    width: 500px;
+    height: 42px;
+    margin-top: 20px;
+    background-color: #ffc800;
+    border: none;
+    border-radius: 5px;
+}
+#contact ::placeholder{
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    padding-left: 10px;
+    font-weight: bold;
+}
+#btnmessage{
+    margin-top: 20px;
+    width: 200px;
+    height: 32px;
+    background: transparent;
+    border: 2px solid #ffc800;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+#btnmessage:hover{
+    background-color: #ffc800;
+    color: white;
+}
+#contact i{
+    background-color: #ffc800;
+    color: white;
+}
+#contact i span{
+    font-family: 'Roboto Slab', serif;
+}
+@media screen and (max-width:1200px){
+    #contact input{
+        width: 350px;
+    }
+}
+@media screen and (max-width:385px){
+    #contact input{
+        width: 250px;
+    }
+}
+
